@@ -20,7 +20,7 @@ def clear():
     entry.delete(0, tk.END)
     expression = ""
 window = tk.Tk()
-window.title("Calculator")
+window.title("CALCULATOR")
 window.color="lightblue"
 expression = ""
 entry = tk.Entry(window, font=("Arial", 20), width=30,bg="green")
